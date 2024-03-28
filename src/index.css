@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    a{
+        @apply p-4
+    }
+    button{
+        @apply px-4 bg-gradient-to-r from-sky-700 to-blue-400 border mb-3  py-3 rounded-xl
+    }
+    .icon{
+        color: rgb(41, 83, 135);
+    }
+}
